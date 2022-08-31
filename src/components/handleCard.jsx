@@ -121,7 +121,7 @@ function HandleCard() {
                             <div>
                                 {studentData && <Link
                                     className="mt-2 me-2 btn btn-secondary mx-auto"
-                                    to={"/"}
+                                    to={"/study-project-1/"}
                                 >
                                     Назад
                                 </Link>}

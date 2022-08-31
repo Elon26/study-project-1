@@ -16,7 +16,7 @@ function Modal({ onCloseModal }) {
                     </button>
                     <Link
                         className="mt-2 btn btn-primary mx-auto"
-                        to={"/"}
+                        to={"/study-project-1/"}
                     >
                         Вернуться на главную
                     </Link>

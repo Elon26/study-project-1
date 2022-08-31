@@ -16,7 +16,7 @@ function StudentData({ data }) {
             <p><b>Имя:</b> {data.name}</p>
             <p><b>Фамилия:</b> {data.surname}</p>
             <p><b>Год рождения:</b> {data.birthYear} ({age} {setAgeWord(age)})</p>
-            <p><b>Портфолио:</b> <Link to={"/"}>{data.portfolio}</Link> </p>
+            <p><b>Портфолио:</b> <Link to={"/study-project-1/"}>{data.portfolio}</Link> </p>
         </div >
     );
 }
